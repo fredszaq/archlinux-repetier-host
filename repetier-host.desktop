@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Repetier Host
+Comment=All-in-one 3D printer driving software 
+Exec=repetierHost
+Icon=/usr/share/repetierHost/repetier-host.png
+Terminal=0
+Type=Application
+Encoding=UTF-8
+Categories=Application;
+
