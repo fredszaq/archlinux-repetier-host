@@ -41,7 +41,7 @@ build() {
 
 	# install Slic3r deps
 	cd Slic3r
-	cpanm -n -L tmplib Boost::Geometry::Utils Encode::Locale Math::Clipper Math::ConvexHull::MonotoneChain Math::Geometry::Voronoi Math::PlanePath Moo Wx
+	/usr/bin/vendor_perl/cpanm -n -L tmplib Boost::Geometry::Utils Encode::Locale Math::Clipper Math::ConvexHull::MonotoneChain Math::Geometry::Voronoi Math::PlanePath Moo Wx
 	mv tmplib/lib/perl5/* lib/
 	rm -rf tmplib
 
