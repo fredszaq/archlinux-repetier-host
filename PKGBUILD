@@ -15,7 +15,7 @@ license=('custom')
 depends=('mono' 'perl' 'wxgtk')
 makedepends=('cpanminus')
 provides=('repetier-host')
-conflics=('repetier-host')
+conflicts=('repetier-host')
 source=("http://www.repetier.com/?wpdmact=process&did=NDAuaG90bGluaw=="
         "repetier-host.png"
         "repetier-host.desktop")
